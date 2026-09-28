@@ -1,0 +1,24 @@
+artifact_path: /Users/shivam13juna/Documents/scaler/AIML_mlops/v1-aiml-mlops/lec5
+  Experiment Tracking with MLFlow/mlruns/1/models/m-a370f9d8588f4e8bb2b34fdd5b89bac1/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.12
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.16.1
+model_id: m-a370f9d8588f4e8bb2b34fdd5b89bac1
+model_size_bytes: 211618
+model_uuid: m-a370f9d8588f4e8bb2b34fdd5b89bac1
+prompts: null
+run_id: 2609f95a567f4b4ead78e7a10b749966
+utc_time_created: '2026-09-28 16:25:29.506319'
